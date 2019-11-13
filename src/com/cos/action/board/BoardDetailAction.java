@@ -57,7 +57,7 @@ public class BoardDetailAction implements Action {
 			}
 			
 			Cookie newCookie = new Cookie("cookie"+id,"cookie"+id);
-			newCookie.setMaxAge(10);
+			newCookie.setMaxAge(300);
 			response.addCookie(newCookie);
 			
 			
