@@ -20,6 +20,7 @@ CREATE TABLE user(
     address varchar(100) not null,
     userProfile varchar(200) default '/blog/img/userProfile.png',
     createDate timestamp
+    admit int default 0,
 ) engine=InnoDB default charset=utf8;
 ```
 
